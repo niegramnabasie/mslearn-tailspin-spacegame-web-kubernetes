@@ -8,6 +8,7 @@ variables:
   tag: '$(Build.BuildId)'
   imagePullSecret: 'secret'
 
+
 stages:
 - stage: 'Build'
   displayName: 'Build and push'
